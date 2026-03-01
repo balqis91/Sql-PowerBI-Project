@@ -1,18 +1,18 @@
-# 🎓 SQL + Power BI Project: Student Management System
+#  SQL + Power BI Project: Student Management System
 
-## 📌 Overview  
+##  Overview  
 This project integrates **MySQL database management** with **Power BI dashboards** to analyze student performance and teacher impact.  
 It demonstrates **database design**, **SQL procedures**, **roles & permissions**, and **data visualization** for actionable insights.  
 
 The project includes:  
-- 🗄️ SQL Database with **Students & Teachers**  
-- 🔑 Role-based Access Control (**Admin, Teacher, Student**)  
-- 🛠️ Stored Procedures & User-Defined Functions  
-- 📊 Power BI Dashboards for **Students & Teachers**
+-  SQL Database with **Students & Teachers**  
+-  Role-based Access Control (**Admin, Teacher, Student**)  
+-  Stored Procedures & User-Defined Functions  
+-  Power BI Dashboards for **Students & Teachers**
 
 ---
 
-## 📊 Dashboards  
+##  Dashboards  
 
 ### Student Performance Dashboard  
 <img width="1097" height="611" alt="image" src="https://github.com/user-attachments/assets/cb78c490-0fa3-4849-9201-3e62949b80ce" />
@@ -24,7 +24,7 @@ The project includes:
 
 
 
-## ✅ Database Schema  
+##  Database Schema  
 
 **Students Table**
 - `StudentID` (Primary Key)  
@@ -45,9 +45,9 @@ The project includes:
 
 ---
 
-## 🛠️ Key SQL Features  
+##  Key SQL Features  
 
-### 🔹 Views  
+###  Views  
 ```sql
 CREATE VIEW Student_Overview AS
 SELECT StudentID, Name, Grade FROM Students;
@@ -77,7 +77,7 @@ BEGIN
     SET discounted_price = price - (price * discount_percent / 100);
     RETURN discounted_price;
 END;
-🔍 Findings
+ Findings
 Top Performing Student: Ella Black (Score: 95)
 
 Best Performing Grade: Grade 11
@@ -88,7 +88,7 @@ Age Distribution: 71% Adults vs 29% Minors
 
 Balanced Workload: Dr. Brown & Ms. Johnson had the highest student counts
 
-📌 Conclusion
+ Conclusion
 This project successfully combines SQL database management and Power BI dashboards to monitor student performance and teacher effectiveness.
 
 Future Enhancements
@@ -99,7 +99,7 @@ Automate alerts for failing students
 
 Expand subject-level performance analysis
 
-⚙️ Tools Used
+ Tools Used
 MySQL – Database design & queries
 
 Power BI – Data visualization
@@ -108,4 +108,4 @@ DAX & Power Query – Data transformations
 
 Role-Based Access Control – Data security
 
-👩‍💻 Created by Balikisu Ajoke Oniyide
+ Created by Balikisu Ajoke Oniyide
