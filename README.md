@@ -1,5 +1,7 @@
 #  SQL + Power BI Project: Student Management System
 
+<img width="1097" height="611" alt="image" src="https://github.com/user-attachments/assets/cb78c490-0fa3-4849-9201-3e62949b80ce" />
+
 ##  Overview  
 This project integrates **MySQL database management** with **Power BI dashboards** to analyze student performance and teacher impact.  
 It demonstrates **database design**, **SQL procedures**, **roles & permissions**, and **data visualization** for actionable insights.  
@@ -11,11 +13,6 @@ The project includes:
 -  Power BI Dashboards for **Students & Teachers**
 
 ---
-
-##  Dashboards  
-
-### Student Performance Dashboard  
-<img width="1097" height="611" alt="image" src="https://github.com/user-attachments/assets/cb78c490-0fa3-4849-9201-3e62949b80ce" />
  
 
 ### Teacher Impact Dashboard  
